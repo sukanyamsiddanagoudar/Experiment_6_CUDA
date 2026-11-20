@@ -1,0 +1,1 @@
+The CUDA source file memory_optimization.cu was not included in the uploaded materials for this ZIP. Copy your tested memory_optimization.cu into this project root before publishing to GitHub. The README contains the exact compile command used for this experiment.
