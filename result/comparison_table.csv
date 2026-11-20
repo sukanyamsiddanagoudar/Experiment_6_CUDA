@@ -1,0 +1,5 @@
+Run,Coalesced (ms),Uncoalesced (ms),Naive matrix multiplication (ms)
+Run 1,0.348846,0.724754,0.029901
+Run 2,0.370523,0.725515,0.032563
+Run 3,0.344558,0.729056,0.032710
+Average,0.354642,0.726442,0.031725

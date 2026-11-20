@@ -1,0 +1,41 @@
+CUDA MEMORY OPTIMIZATION EXPERIMENT
+GPU: NVIDIA GeForce RTX 5060 Ti
+Global Memory: 15.93 GB
+
+PART A: MEMORY ACCESS COMPARISON
+Matrix size: 4096 x 4096
+Memory per input/output array: 64.00 MB
+
+Coalesced Access:
+Average Kernel Time: 0.348846 ms
+Verification: PASSED
+
+Uncoalesced Access:
+Average Kernel Time: 0.724754 ms
+Verification: PASSED
+
+Memory Access Performance:
+Coalesced access was faster in this measurement.
+
+PART B: NAIVE MATRIX MULTIPLICATION
+Matrix A: 256 x 256
+Matrix B: 256 x 256
+Result C: 256 x 256
+Threads per block: 16 x 16
+Average GPU Kernel Time: 0.029901 ms
+Matrix Verification: PASSED
+
+First 5 elements of result matrix:
+5575.00 5599.00 5595.00 5549.00 5601.00
+
+FINAL PERFORMANCE SUMMARY
+Coalesced Access Time: 0.348846 ms
+Uncoalesced Access Time: 0.724754 ms
+Naive Matrix Multiply: 0.029901 ms
+
+All verification checks:
+Coalesced: PASSED
+Uncoalesced: PASSED
+Matrix: PASSED
+
+Experiment completed.
